@@ -1,0 +1,21 @@
+.remarks-box {
+  padding: 10px 10px 10px 20px;
+  border: 1px solid purple;
+  background: rgb(33, 0, 57);
+  background: linear-gradient(
+    45deg,
+    rgba(37, 6, 89, 1) 50%,
+    rgba(83, 11, 99, 1) 75%
+  );
+  opacity: 0.8;
+  margin: 20px;
+  border-radius: 20px 20px 0px 20px;
+}
+
+.remarks-box:hover {
+  opacity: 1;
+}
+
+.icon-remarks {
+  fill: white;
+}

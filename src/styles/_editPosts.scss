@@ -1,0 +1,19 @@
+#posts-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#title,
+#description {
+  border-radius: 10px;
+  border: none;
+  opacity: 0.5;
+  width: 100%;
+}
+
+#title:hover,
+#description:hover {
+  opacity: 1;
+}

@@ -1,0 +1,68 @@
+.all-posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-box {
+  min-width: 370px;
+  padding: 60px 40px 40px 40px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 40px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.card-box:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.icon-posts {
+  fill: purple;
+  cursor: pointer;
+  margin-left: 10px;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.icon-posts.edit,
+.icon-posts.close {
+  right: 50px;
+}
+
+.icon-posts:hover {
+  height: 25px;
+  width: 25px;
+  border-radius: 20px;
+  background-color: rgba(128, 0, 128, 0.2);
+}
+
+.box-icon-posts {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.posts-card {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.img-posts {
+  width: 100%;
+  max-width: 600px;
+}
+
+.btn-img-post {
+  color: white;
+  border: 0px solid white;
+}
+
+.btn-img-edit-post {
+  color: purple;
+  border: 0px solid white;
+}

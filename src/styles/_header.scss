@@ -1,0 +1,29 @@
+header {
+  background: rgb(33, 0, 57);
+  background: linear-gradient(
+    180deg,
+    rgba(33, 0, 57, 1) 0%,
+    rgba(119, 2, 140, 0) 100%
+  );
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.logo-groupomania {
+  width: 300px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  fill: orange;
+}
